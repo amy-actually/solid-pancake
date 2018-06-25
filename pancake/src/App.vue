@@ -3,6 +3,7 @@
     <img src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <Product title="Socks" v-bind:product="{price: '7.33', description: 'Socks for sale!', img:'http://baconmockup.com/300/300'}"/>
+    <Product title="V-neck Sweaters" v-bind:product="{price: '15.89', description: 'Argyle and fuzzy sweaters for sale!', img:'http://baconmockup.com/300/200'}"/>
   </div>
 </template>
 
